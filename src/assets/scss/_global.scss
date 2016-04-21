@@ -1,0 +1,151 @@
+@import "mixins";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* SPACING */
+.no-padding {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
+
+.padding {
+  padding: 1em;
+}
+
+.padding-half {
+  padding: 0.5em;
+}
+
+.padding-bottom {
+  padding-bottom: 1em;
+}
+
+.padding-bottom-double {
+  padding-bottom: 2em;
+}
+
+.padding-bottom-half {
+  padding-bottom: 0.5em;
+}
+
+.padding-bottom-quarter {
+  padding-bottom: 0.25em;
+}
+
+.padding-right {
+  padding-right: 1em;
+}
+
+.padding-right-half {
+  padding-right: 0.5em;
+}
+
+.padding-right-double {
+  padding-right: 2em;
+}
+
+.padding-right-quarter {
+  padding-right: 0.25em;
+}
+
+.padding-left {
+  padding-left: 1em;
+}
+
+.padding-left-half {
+  padding-left: 0.5em;
+}
+
+.padding-left-double {
+  padding-left: 2em;
+}
+
+.padding-left-quarter {
+  padding-left: 0.25em;
+}
+
+.padding-top {
+  padding-top: 1em;
+}
+
+.padding-top-half {
+  padding-top: 0.5em;
+}
+
+.padding-top-double {
+  padding-top: 2em;
+}
+
+.padding-top-quarter {
+  padding-top: 0.25em;
+}
+
+.padding-double {
+  padding: 2em;
+}
+
+.padding-quarter {
+  padding: 0.25em;
+}
+
+.full-height {
+  min-height: 100%;
+  height: 100%;
+}
+//
+//div.error {
+//  margin-top: -0.95rem;
+//  font-size: 0.9rem;
+//  color: #a94442;
+//}
+
+// ng-show hide of expandable area animation
+.expandable-animation.ng-hide {
+  max-height: 0;
+  @include transition(max-height 0.5s);
+  overflow: hidden;
+}
+
+.expandable-animation {
+  max-height: 350px;
+  @include transition(max-height 0.5s);
+  overflow: hidden;
+}
+
+//
+//select {
+//  border-width: 2px;
+//  border-color: #a0a7b7;
+//  border-style: solid;
+//  background-color: #ffffff;
+//  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.07);
+//}
+
+//.white-container {
+//  border-style: solid;
+//  border-width: 2px;
+//  border-color: #d0d4df;
+//  background-color: #ffffff;
+//  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.07);
+//}
+
+//// ngToast messages styles
+//.ng-toast.ng-toast--left .ng-toast__list {
+//  left: 10px;
+//  margin-left: 0;
+//  bottom: 10px;
+//}
+//
+//.ng-toast__message {
+//  padding: 3px 10px 3px 10px;
+//  background: #F1F1F1;
+//  border: 1px solid gray;
+//  border-radius: 4px;
+//  //margin: 0.5rem;
+//  font-size: 0.8rem;
+//  text-align: left !important;
+//}
